@@ -2,7 +2,9 @@ import React from 'react'
 import Greeting from './Greeting';
 
 const App = () => (
-  <Greeting />
+  <Provider store={store}></Provider>
+    <Greeting />
+  </Provider>
 );
 
 export default App;
